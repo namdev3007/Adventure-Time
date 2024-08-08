@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1397256873244765290}
   - component: {fileID: 3625832004167916092}
-  - component: {fileID: 3892465411474560621}
   - component: {fileID: 6050385450287201264}
   - component: {fileID: 3323204638430810706}
   - component: {fileID: 339281749999720434}
+  - component: {fileID: 2456444556878321277}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -90,18 +90,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &3892465411474560621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7642536532809421144}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7784b8f2304a914488182c7065c11044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &6050385450287201264
 Rigidbody2D:
   serializedVersion: 4
@@ -117,7 +105,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -196,3 +184,16 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2456444556878321277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7642536532809421144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7784b8f2304a914488182c7065c11044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 5

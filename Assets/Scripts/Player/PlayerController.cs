@@ -1,18 +1,33 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public float walkSpeed = 5;
+    Vector2 moveInput;
+
+
+    private Rigidbody2D rb;
+
+    private void Awake()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+    }
+    public bool IsMoving { get; private set; }
+
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector2(moveInput.x * walkSpeed, moveInput.y);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnMove(InputAction.CallbackContext context)
     {
-        
+        moveInput = context.ReadValue<Vector2>();
+
+        IsMoving = moveInput != Vector2.zero;
     }
 }
