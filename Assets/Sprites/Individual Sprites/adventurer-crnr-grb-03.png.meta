@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: f5a8a7930f9ea1f40b9d399b20b56f83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4517043799658595901
+    second: adventurer-crnr-grb-03_0
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: adventurer-crnr-grb-03_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9f776b89c3051c0800000000000000
+      internalID: -4517043799658595901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vecteezy_golden-logo-template_23654784_0: -1544552277846076164
+      vecteezy_golden-logo-template_23654784_1: 3515717414452614039
+      vecteezy_golden-logo-template_23654784_10: 6768658089433206084
+      vecteezy_golden-logo-template_23654784_11: 2014029125017357245
+      vecteezy_golden-logo-template_23654784_12: -7165254337885711812
+      vecteezy_golden-logo-template_23654784_13: 25757919255247011
+      vecteezy_golden-logo-template_23654784_14: -3137748630541013487
+      vecteezy_golden-logo-template_23654784_15: 8370286436577917040
+      vecteezy_golden-logo-template_23654784_16: 3444651875549264322
+      vecteezy_golden-logo-template_23654784_17: 6740603805131203298
+      vecteezy_golden-logo-template_23654784_18: 2787650374053322346
+      vecteezy_golden-logo-template_23654784_19: -8503379464902052563
+      vecteezy_golden-logo-template_23654784_2: 7541284454135783473
+      vecteezy_golden-logo-template_23654784_20: 5904795858888539755
+      vecteezy_golden-logo-template_23654784_21: -5835405288475536085
+      vecteezy_golden-logo-template_23654784_22: -3891666137282262088
+      vecteezy_golden-logo-template_23654784_23: 474852444320752732
+      vecteezy_golden-logo-template_23654784_24: -6335712816130558977
+      vecteezy_golden-logo-template_23654784_25: -7555252270412572181
+      vecteezy_golden-logo-template_23654784_26: 1284180421324435101
+      vecteezy_golden-logo-template_23654784_27: 26824367889502773
+      vecteezy_golden-logo-template_23654784_28: 8886745278679508639
+      vecteezy_golden-logo-template_23654784_29: 4561788608002459146
+      vecteezy_golden-logo-template_23654784_3: -7146730078390773021
+      vecteezy_golden-logo-template_23654784_30: -1062355601923424995
+      vecteezy_golden-logo-template_23654784_31: -1917825469723945848
+      vecteezy_golden-logo-template_23654784_32: 7185851206280102235
+      vecteezy_golden-logo-template_23654784_4: -2624838771032915275
+      vecteezy_golden-logo-template_23654784_5: -8355107763229552782
+      vecteezy_golden-logo-template_23654784_6: -3590783832825546268
+      vecteezy_golden-logo-template_23654784_7: 2298914346755332271
+      vecteezy_golden-logo-template_23654784_8: -5873281974233789233
+      vecteezy_golden-logo-template_23654784_9: -2452765345660550364
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
